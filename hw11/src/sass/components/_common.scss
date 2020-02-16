@@ -16,12 +16,12 @@
     display: block;
     height: 1000px;
     margin-bottom: 50px;
-    @include bcg-image('../../images/jpg/bcg.jpg', cover, no-repeat, center)
+    @include bcg-image('../images/jpg/bcg.jpg', cover, no-repeat, center)
 }
 
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .wrapper-bcg {
-        background-image: url('../../images/jpg/bcg@2x.jpg');
+        background-image: url('../images/jpg/bcg@2x.jpg');
     }
 }
 
