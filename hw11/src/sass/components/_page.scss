@@ -104,7 +104,7 @@
     height: 32px;
     content: "";
 
-    @include bcg-image("../../images/png/ALARM.png", cover, no-repeat, center)
+    @include bcg-image("../images/png/ALARM.png", cover, no-repeat, center)
         // background-image: url("../../images/png//ALARM.png");
     // background-position: center;
     // background-repeat: no-repeat;
@@ -117,7 +117,7 @@
     height: 32px;
     content: "";
 
-    @include bcg-image("../../images/png/GRAPH.png", cover, no-repeat, center)
+    @include bcg-image("../images/png/GRAPH.png", cover, no-repeat, center)
         // background-image: url("../../images/png//GRAPH.png");
     // background-position: center;
     // background-repeat: no-repeat;
@@ -130,7 +130,7 @@
     height: 32px;
     content: "";
 
-    @include bcg-image("../../images/png/creativity.png", cover, no-repeat, center)
+    @include bcg-image("../images/png/creativity.png", cover, no-repeat, center)
         // background-image: url("../../images/png//creativity.png");
     // background-position: center;
     // background-repeat: no-repeat;
@@ -143,7 +143,7 @@
     height: 32px;
     content: "";
 
-    @include bcg-image("../../images/png/BOOK.png", cover, no-repeat, center)
+    @include bcg-image("../images/png/BOOK.png", cover, no-repeat, center)
         // background-image: url("../../images/png/BOOK.png");
     // background-position: center;
     // background-repeat: no-repeat;
@@ -156,7 +156,7 @@
     height: 32px;
     content: "";
 
-    @include bcg-image("../../images/png/html.png", cover, no-repeat, center)
+    @include bcg-image("../images/png/html.png", cover, no-repeat, center)
         // background-image: url("../../images/png/html.png");
     // background-position: center;
     // background-repeat: no-repeat;
@@ -169,7 +169,7 @@
     height: 32px;
     content: "";
 
-    @include bcg-image("../../images/png/digital.png", cover, no-repeat, center)
+    @include bcg-image("../images/png/digital.png", cover, no-repeat, center)
         // background-image: url("../../images/png/digital.png");
     // background-position: center;
     // background-repeat: no-repeat;
