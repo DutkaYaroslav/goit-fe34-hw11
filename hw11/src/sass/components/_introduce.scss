@@ -1,0 +1,50 @@
+
+.box-introduce {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.box-introduce__title {
+    font-family: $kaushan;
+    font-weight: 500;
+    font-size: 71px;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: $white-colore;
+    margin-bottom: 100px;
+}
+
+.box-introduce__title-newrow {
+    font-family: $monsterrat;
+    font-size: 150px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    padding-top: 55px;
+
+    &:last-child {
+        padding-top: 0;
+        padding: 0;
+    }
+}
+
+
+.box-introduce__button {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    padding: 10px 20px;
+    color: $white-colore;
+    border: 1px solid $white-colore;
+    background: none;
+}

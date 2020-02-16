@@ -1,0 +1,194 @@
+.page {
+    margin-bottom: 100px;
+}
+
+.page-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 316px;
+    margin: 0 auto;
+    margin-bottom: 44px;
+}
+
+.page-title__text {
+    display: block;
+    color: $title-color;
+    text-align: center;
+    font-family: $kaushan;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: initial;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 22px;
+}
+
+.page-title-headline {
+    display: block;
+    color: $title-color;
+    font-family: $monsterrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: initial;
+    padding: 0;
+    margin: 0;
+
+    &:after {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        content: "";
+        width: 60px;
+        height: 3px;
+        margin: auto;
+        background-color: $line-color;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 44px;
+    }
+}
+
+
+.page-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.page-list__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 333px;
+    list-style: none;
+    padding-left: 80px;
+}
+
+.page-list__items-item {
+    width: 266px;
+}
+
+.page-list__items:nth-child(-n+3) {
+    margin-bottom: 100px;
+}
+
+.page-list__items-alarm::before {
+    position: absolute;
+    left: 20px;
+    width: 32px;
+    height: 32px;
+    content: "";
+
+    @include bcg-image("../../images/png/ALARM.png", cover, no-repeat, center)
+        // background-image: url("../../images/png//ALARM.png");
+    // background-position: center;
+    // background-repeat: no-repeat;
+}
+
+.page-list__items-graph::before {
+    position: absolute;
+    left: 20px;
+    width: 32px;
+    height: 32px;
+    content: "";
+
+    @include bcg-image("../../images/png/GRAPH.png", cover, no-repeat, center)
+        // background-image: url("../../images/png//GRAPH.png");
+    // background-position: center;
+    // background-repeat: no-repeat;
+}
+
+.page-list__items-monitor::before {
+    position: absolute;
+    left: 20px;
+    width: 32px;
+    height: 32px;
+    content: "";
+
+    @include bcg-image("../../images/png/creativity.png", cover, no-repeat, center)
+        // background-image: url("../../images/png//creativity.png");
+    // background-position: center;
+    // background-repeat: no-repeat;
+}
+
+.page-list__items-seo::before {
+    position: absolute;
+    left: 20px;
+    width: 32px;
+    height: 32px;
+    content: "";
+
+    @include bcg-image("../../images/png/BOOK.png", cover, no-repeat, center)
+        // background-image: url("../../images/png/BOOK.png");
+    // background-position: center;
+    // background-repeat: no-repeat;
+}
+
+.page-list__items-html::before {
+    position: absolute;
+    left: 20px;
+    width: 32px;
+    height: 32px;
+    content: "";
+
+    @include bcg-image("../../images/png/html.png", cover, no-repeat, center)
+        // background-image: url("../../images/png/html.png");
+    // background-position: center;
+    // background-repeat: no-repeat;
+}
+
+.page-list__items-digital::before {
+    position: absolute;
+    left: 20px;
+    width: 32px;
+    height: 32px;
+    content: "";
+
+    @include bcg-image("../../images/png/digital.png", cover, no-repeat, center)
+        // background-image: url("../../images/png/digital.png");
+    // background-position: center;
+    // background-repeat: no-repeat;
+}
+
+
+.page-list__items-lead {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.page-list__items-text {
+    margin: 0;
+    padding: 0;
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: $text-color;
+}

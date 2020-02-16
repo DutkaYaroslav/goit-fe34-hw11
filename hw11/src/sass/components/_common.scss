@@ -1,0 +1,56 @@
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+@mixin bcg-image($path, $size, $repeat, $position) {
+    background-image: url($path);
+    background-size: $size;
+    background-repeat: $repeat;
+    background-position: $position;
+}
+
+.wrapper-bcg {
+    display: block;
+    height: 1000px;
+    margin-bottom: 50px;
+    @include bcg-image('../../images/jpg/bcg.jpg', cover, no-repeat, center)
+}
+
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .wrapper-bcg {
+        background-image: url('../../images/jpg/bcg@2x.jpg');
+    }
+}
+
+
+footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 62px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    &::before {
+        display: block;
+        content: "";
+        height: 1px;
+        width: 1200px;
+    
+        position: absolute;
+        top: 1px;
+        background-color: $bcg-white;
+    }
+}
+
+.container-footer {
+    margin: auto; 
+}

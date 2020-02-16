@@ -1,0 +1,42 @@
+.wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-bottom: 15px;
+    margin-top: 30px;
+}
+
+.wrapper-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 900px;
+}
+
+.wrapper-quote {
+    font-family: $roboto;
+    width: 310px;
+}
+
+
+.footer-span {
+    color: $line-color;
+}
+
+.wrapper-input {
+    width: 230px;
+}
+
+.wrapper-button {
+    font-family: $roboto;
+    width: 130px;
+    color: $button-text-color;
+    background-color: $blue-color;
+}
